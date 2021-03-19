@@ -13,9 +13,8 @@ fun names (first:String,second:String,third:String,fourth:String){
 }
 fun citiesArray (){
     var cities = arrayOf("harare","mumbai","dodoma","jakarta")
-    cities.forEach { cities->
-        println(cities.capitalize())
-
+    for (city in cities ){
+     println(city.capitalize())
     }
 
 }
